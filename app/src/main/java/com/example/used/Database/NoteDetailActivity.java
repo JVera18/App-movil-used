@@ -1,4 +1,4 @@
-package com.example.used;
+package com.example.used.Database;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.used.R;
 
 import java.util.Date;
 

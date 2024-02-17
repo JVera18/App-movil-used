@@ -1,4 +1,4 @@
-package com.example.used;
+package com.example.used.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -23,6 +23,7 @@ import com.example.used.Fragments.MensajeFragment;
 import com.example.used.Fragments.TelefonoFragment;
 import com.example.used.Fragments.WebFragment;
 import com.example.used.Interfaces.IComunicaFragments;
+import com.example.used.R;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements IComunicaFragments {

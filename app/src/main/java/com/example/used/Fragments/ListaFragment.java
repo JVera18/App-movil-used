@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
-import com.example.used.Note;
-import com.example.used.NoteAdapter;
-import com.example.used.NoteDetailActivity;
+import com.example.used.Database.Note;
+import com.example.used.Adapter.NoteAdapter;
+import com.example.used.Database.NoteDetailActivity;
 import com.example.used.R;
-import com.example.used.SQLiteManager;
+import com.example.used.Database.SQLiteManager;
 
 /**
  * A simple {@link Fragment} subclass.

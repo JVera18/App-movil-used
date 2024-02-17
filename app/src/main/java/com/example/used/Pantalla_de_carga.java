@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.used.Activity.MainActivity;
+
 public class Pantalla_de_carga extends AppCompatActivity {
 
     @Override

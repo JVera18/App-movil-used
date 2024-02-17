@@ -15,7 +15,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.used.MainActivity;
 import com.example.used.R;
 
 /**
