@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">+used</string>
+    <string name="title">Team4</string>
+    <string name="correo">judvera@est.istg.edu.ec</string>
+    <!--    Strings: nav_options-->
+    <string name="home">Inicio</string>
+    <string name="mail">Email</string>
+    <string name="web">Web</string>
+    <string name="cam">Camara</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="telf">Teléfono</string>
+    <string name="contactos">Contactos</string>
+    <string name="calendario">Calendario</string>
+    <string name="lista">Notas</string>
+    <!--Menu-->
+    <string name="otras_opc">Otras Opciones</string>
+    <string name="app">Acerca de +used</string>
+    <string name="info">Información del Team4</string>
+    <string name="salir">Salir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Fragments-->
+    <string name="inicio">Hola fragments Inicio</string>
+    <string name="email">Hola fragments Email</string>
+    <string name="telefono">Hola fragments Telefono</string>
+    <string name="contac">Hola fragments Contacto</string>
+    <string name="www">Hola fragments web</string>
+    <string name="camara">Hola fragments Camara</string>
+    <string name="acerca">Hola fragments Acerca de</string>
+    <string name="infor">Hola fragments Info</string>
+    <!--    Fragmento Web-->
+    <string name="google">Ir a Google</string>
+    <string name="youtube">Ir a Youtube</string>
+    <string name="facebook">Ir a Facebook</string>
+    <string name="instagram">Ir a Instagram</string>
+    <string name="twitter">Ir a Twitter</string>
+    <string name="discord">Ir a Discord</string>
+    <string name="spotify">Ir a Spotify</string>
+    <string name="traductor">Ir al Traductor</string>
+    <string name="todo">TODO</string>
+
+    <!--    Fragmento teléfono-->
+    <string name="ingrese_telef">Ingrese su número</string>
+    <string name="llamar_permiso">Marcar con permisos</string>
+    <string name="llamar_directo">Marcar directo</string>
+    <string name="btncontacto">Contactos</string>
+
+    <!--    Fragmento Email-->
+    <string name="titulo">Enviar Correo</string>
+    <string name="envio">Enviar a:</string>
+    <string name="hint_envio">Ejemplo: correo@correo.com</string>
+    <string name="asunto">Asunto:</string>
+    <string name="hint_asunto">Feliz Cumpleaños</string>
+    <string name="msg">Mensaje:</string>
+    <string name="hint_msg">Felicidades por este gran día.</string>
+    <string name="btn_enviar">Enviar</string>
+
+    <!--    Fragmento Email-->
+    <string name="sms">SMS</string>
+    <string name="mensajes">Escriba el mensaje que se enviara.</string>
+
+    <!--    Inicio-Fragment-->
+    <string name="inicioLogo">+used</string>
+
+    <!--    Acerca +used -Fragment-->
+    <string name="parrafo">App enfocada en el uso de aplicaciones más utilizadas en el teléfono en el día a día, permitiendo al usuario el acceso rápido y directo a distintas funciones del teléfono por medio de una sola app, la cual contiene múltiples funcionalidades de un celular al alcance de un menú.
+    </string>
+
+    <!-- Información del grupo-->
+    <string name="juli">Julitza Vera</string>
+    <string name="emily">Emily Ortega</string>
+    <string name="jairo">Jairo Rubira</string>
+    <string name="andrea">Andrea Mora</string>
+
+    <!--Lista - Fragments-->
+    <string name="txtTasks">Recordatorio</string>
+    <string name="txtnota">NOTAS</string>
+    <string name="txtdetalle">DETALLE</string>
+
+    <!--new - task-->
+    <string name="txtTitulo">Título...</string>
+    <string name="txtDescription">Descripción...</string>
+    <string name="hint_lista">Nuevo Recordatorio</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_eliminar">Eliminar</string>
+</resources>

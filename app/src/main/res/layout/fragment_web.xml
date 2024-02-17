@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.WebFragment"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#08203e"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOpenGoogle"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:text="@string/google"
+            android:textColor="#263238"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/goo"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenYoutube"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/my_button_background"
+            android:padding="10dp"
+            android:text="@string/youtube"
+            android:textColor="#263238"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/youtube"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenFacebook"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/facebook"
+            android:textColor="#263238"
+            android:drawableLeft="@drawable/face"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenInstagram"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/instagram"
+            android:textColor="#263238"
+            android:drawableLeft="@drawable/instagram"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenTwitter"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/twitter"
+            android:text="@string/twitter"
+            android:textColor="#263238"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenDiscord"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/discord"
+            android:textColor="#263238"
+            android:drawableLeft="@drawable/discord"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenSpotify"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/spotify"
+            android:textColor="#263238"
+            android:drawableLeft="@drawable/spotify"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnOpenTraductor"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/my_button_background"
+            android:fontFamily="sans-serif"
+            android:text="@string/traductor"
+            android:textColor="#263238"
+            android:drawableLeft="@drawable/translate"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</FrameLayout>

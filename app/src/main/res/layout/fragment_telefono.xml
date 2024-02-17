@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08203e"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.TelefonoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="70dp"
+        android:hint="@string/ingrese_telef"
+        android:textColorHint="@android:color/darker_gray"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:startIconDrawable="@drawable/llamada"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:digits="1234567890 "
+            android:singleLine="true"
+            android:maxLength="10"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDirecto"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/btn_uno"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/llamar_directo"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/louis_cafe"/>
+
+        <Button
+            android:id="@+id/btnPermiso"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_uno"
+            android:layout_margin="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/llamar_permiso"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/louis_cafe"/>
+
+        <Button
+            android:id="@+id/btnContacto"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/ic_contacto"
+            android:text="@string/btncontacto"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/louis_cafe"/>
+    </LinearLayout>
+
+
+</FrameLayout>

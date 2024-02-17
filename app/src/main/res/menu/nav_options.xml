@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <!--<item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/home"
+            android:title="@string/home"/>-->
+        <item
+            android:id="@+id/menu_acerca"
+            android:icon="@drawable/acerca_de"
+            android:title="@string/app"/>
+
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@drawable/mail"
+            android:title="@string/mail"/>
+
+        <item
+            android:id="@+id/menu_web"
+            android:icon="@drawable/web"
+            android:title="@string/web"/>
+
+        <item
+            android:id="@+id/menu_mensaje"
+            android:icon="@drawable/mensaje"
+            android:title="@string/mensaje"/>
+
+        <item
+            android:id="@+id/menu_telf"
+            android:icon="@drawable/llamada"
+            android:title="@string/telf"/>
+
+        <item
+            android:id="@+id/menu_calendario"
+            android:icon="@drawable/calendario"
+            android:title="@string/calendario"/>
+
+        <item
+            android:id="@+id/menu_lista"
+            android:icon="@drawable/nota"
+            android:title="@string/lista"/>
+    </group>
+
+    <item
+        android:title="@string/otras_opc">
+        <menu>
+            <!--<item
+                android:id="@+id/menu_acerca"
+                android:icon="@drawable/acerca_de"
+                android:title="@string/app"/>-->
+
+            <item
+                android:id="@+id/menu_info"
+                android:icon="@drawable/grupo"
+                android:title="@string/info"/>
+
+            <!--<item
+                android:id="@+id/menu_salir"
+                android:icon="@drawable/salida"
+                android:title="@string/salir"/>-->
+        </menu>
+
+    </item>
+</menu>

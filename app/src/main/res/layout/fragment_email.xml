@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08203e"
+    tools:context=".Fragments.EmailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txt_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+
+            <!-- Campo de Correo -->
+            <TextView
+                android:id="@+id/txt_correo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/envio"
+                android:textColor="#FEFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_envio"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#FEFFFF"/>
+
+            <!-- Campo de Asunto -->
+            <TextView
+                android:id="@+id/txt_asunto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asunto"
+                android:textColor="#FEFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/caja_asunto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_asunto"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#FEFFFF" />
+
+            <!-- Campo de Mensaje -->
+            <TextView
+                android:id="@+id/txt_mensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg"
+                android:textColor="#FEFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/caja_mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_msg"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="#FEFFFF"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="430dp">
+
+            <Button
+                android:id="@+id/btn_enviar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/enviar"
+                android:text="@string/btn_enviar"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/btn_uno"
+                android:drawableLeft="@drawable/ic_borrar"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/TextColor"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+<!--    #007bff-->
+</FrameLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteDetailActivity"
+    android:background="@android:color/white"
+    android:theme="@style/Theme.AppCompat.Light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08203e">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtdetalle"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <Button
+            android:layout_marginTop="-45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/btn_guardar"
+            android:textSize="20dp"
+            android:textColor="#195C07"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="end"
+            android:onClick="saveNote"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/titleEdiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/TextColor"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="@string/txtTitulo"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:fontFamily="@font/louis_cafe"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <EditText
+        android:id="@+id/descriptionEdiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/txtDescription"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        android:minLines="3"
+        android:fontFamily="@font/louis_cafe"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/deleteNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_eliminar"
+        android:textColor="#E57373"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="deleteNote"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#00CED1</color> <!-- Verde bosque -->
+    <color name="primaryLight">#8BC34A</color> <!-- Verde oliva claro -->
+    <color name="primaryDark">#00CED1</color> <!-- Verde militar oscuro -->#689F38
+
+    <!-- Otros colores -->
+    <color name="secondaryColor">#FFD600</color> <!-- Amarillo -->
+    <color name="secondaryLight">#FFFF00</color> <!-- Amarillo claro -->
+    <color name="secondaryDark">#FFAB00</color> <!-- Amarillo oscuro -->
+    <color name="SecondaryDark">#FFA000</color>
+    <color name="TextColor">#000000</color>
+
+    <!--Alert-->
+    <color name="jairo">#90caf9</color>
+    <color name="emily">#b39ddb</color>
+    <color name="andrea">#ea80fc</color>
+    <color name="juli">#81c784</color>
+
+<!--    <color name="google">#ff8d00</color>
+secondaryDark-> #FFA000-->
+</resources>

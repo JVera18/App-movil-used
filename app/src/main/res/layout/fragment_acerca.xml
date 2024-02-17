@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08203e"
+    tools:context=".Fragments.AcercaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/avatarLogo"
+                android:layout_width="150dp"
+                android:layout_height="196dp"
+                android:layout_marginRight="90sp"
+                android:src="@drawable/lop"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-120dp"
+                android:layout_marginLeft="120sp"
+                android:text="@string/inicioLogo"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/louis_cafe"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/parrafo"
+                android:textColor="#FFFF"
+                android:fontFamily="@font/louis_cafe"
+                android:letterSpacing="0.01"
+                android:justificationMode="inter_word"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
